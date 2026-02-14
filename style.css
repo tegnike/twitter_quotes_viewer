@@ -1,0 +1,26 @@
+.quotes-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 12px;
+  height: 20px;
+  border: none;
+  border-radius: 9999px;
+  background: transparent;
+  color: rgb(113, 118, 123);
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.quotes-btn:hover {
+  color: rgb(29, 155, 240);
+  background-color: rgba(29, 155, 240, 0.1);
+}
+
+.quotes-btn svg {
+  width: 18.75px;
+  height: 18.75px;
+  fill: currentColor;
+}

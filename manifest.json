@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Quotes Viewer",
+  "version": "1.0",
+  "description": "Adds a Quotes button to each tweet in the timeline",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://twitter.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {}
+}
