@@ -1,9 +1,16 @@
+[data-quotes-btn] {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
 .quotes-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 4px;
-  padding: 0 12px;
-  height: 20px;
+  padding: 0 8px;
+  min-height: 20px;
   border: none;
   border-radius: 9999px;
   background: transparent;
@@ -12,6 +19,8 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   cursor: pointer;
   transition: color 0.2s, background-color 0.2s;
+  line-height: 1;
+  vertical-align: middle;
 }
 
 .quotes-btn:hover {

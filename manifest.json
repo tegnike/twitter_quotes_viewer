@@ -4,6 +4,10 @@
   "version": "1.0",
   "description": "Adds a Quotes button to each tweet in the timeline",
   "permissions": [],
+  "host_permissions": [
+    "https://x.com/*",
+    "https://twitter.com/*"
+  ],
   "content_scripts": [
     {
       "matches": ["https://x.com/*", "https://twitter.com/*"],
